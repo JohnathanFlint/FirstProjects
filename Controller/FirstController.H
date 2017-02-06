@@ -11,8 +11,14 @@
 
 class FirstController
 {
+private:
+    void specialOutput();
+    int stuffSize;
+    void arrayController();
+    void buildArray();
 public:
     void start();
+    void helloWorld();
 };
 
 #endif /* FirstController_h */
